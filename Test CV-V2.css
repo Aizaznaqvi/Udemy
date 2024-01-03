@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1080;
+    margin: 20px 100px;
+    line-height: 1.5;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) ;
+    padding: 16px;
+    color: #495057;
+}
+
+.Section-1{
+    background-color: #0b7285;
+    display: flex;
+    flex-direction: row;
+    line-height: normal;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+}
+ 
+
+.name {
+    margin-top: 10px;
+    font-size: 72px;
+    text-align: center;
+    width: 900px;
+    color: #e3fafc;
+    margin: 6px auto;
+}
+
+.title {
+    font-size: 42px;
+    text-align: center;
+    width: 900px;
+    color: #e3fafc;
+    margin: 0 auto;
+}
+
+.Section-2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.CONTACT {
+    font-size: 16px;
+    width: 300px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.intro {
+    font-size: 16px;
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 1.5;
+    padding-left: 40px;
+    width: 650px;
+}
+
+.experiance {
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 20px; 
+}
+
+.company {
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 0.2px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.bold {
+    font-size: 30px;
+}
+
+.details {
+    text-align: justify;
+    font-size: 16px;
+    width: 950px;
+    word-wrap: break-word;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.reference {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ref-1 {
+    text-align: justify;
+    width: 70%;
+}
+
+.ref-2 {
+    text-align: justify;
+    width: 30%;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    stroke: #0b7285;
+    margin-right: 10px;
+}
+
+.reference li{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.achivments li{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.CONTACT li{
+    display: flex;
+    align-items: center;
+}
